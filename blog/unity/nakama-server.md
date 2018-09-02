@@ -77,7 +77,7 @@ category: "Unity"
 - Linux 机器常规命令行操作
 - [Docker](https://docs.docker.com/install/) 和 [Docker Compose](https://docs.docker.com/compose/overview/) 的使用基本知识
 
-首先你得有一台 Linux 的云服务器（其实并不是非得 Linux，假设你司有钱，是用 Windows Server 的，那也行，都是大佬...），关于这个你可以从腾讯云、阿里云、UCloud、青云各种搞一台都行，我个人比较习惯了微软的 Azure ，创建云服务器用户体验稍微好一点。此处有一个关键点是你的云服务器一定要看外网的 `7350` 端口(TCP)。
+首先你得有一台 Linux 的云服务器（其实并不是非得 Linux，假设你司有钱，是用 Windows Server 的，那也行，都是大佬...），关于这个你可以从腾讯云、阿里云、UCloud、青云各种搞一台都行，我个人比较习惯了微软的 Azure ，创建云服务器用户体验稍微好一点。此处有一个关键点是你的云服务器一定要打开外网的 `7350` 端口(TCP)。
 
 如下图：
 
@@ -206,7 +206,7 @@ public class LogIn : MonoBehaviour
 
 如果打印出来了日志，那么说明一切就绪了你可以开发自己的游戏了，如果你需要自定义服务端，那你最好具备如下知识：
 
-- 会学 Lua，基本上游戏程序员都需要学会这个
+- 会写 Lua，基本上游戏程序员都需要学会这个
 - 阅读官方文档，会告诉你如何根据提供的各种 Hook 函数来自定义逻辑
 
 
