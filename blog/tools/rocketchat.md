@@ -213,6 +213,8 @@ docker-compose up -d hubot
 ![image](https://user-images.githubusercontent.com/5119542/45021026-15469c00-b063-11e8-8ea3-8c917818d984.png)
 
 
+另外，它还有各种客户端，iOS/Android/Windows/MacOS 全都覆盖，并且在我体验了 iOS 和 MacOS 版本之下，比较流畅，性能不做保证，但是至少看上去没太大问题，不能说吊打 Slack，至少做替代品是可信的。
+
 ## 总结
 
 对于一个小型的创业企业，如果你的程序员稍微能懂点 Linux 操作，一个月租一台阿里云最恰当的性价比的机器，就可以拥有一个不错的工作体验，我觉得性价比还可以。
