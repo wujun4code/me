@@ -22,6 +22,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-sequence`,
+            options: {
+              // see more details on https://github.com/bramp/js-sequence-diagrams
+              'theme': 'simple',
+            }
+          },
+          {
             resolve: 'gatsby-remark-external-links',
             options: {
               target: '_blank',

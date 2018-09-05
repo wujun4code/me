@@ -8,6 +8,7 @@ import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from 'components';
 import { media } from '../utils/media';
 import config from '../../config/SiteConfig';
 import '../utils/prismjs-theme.css';
+require("prismjs/themes/prism-tomorrow.css");
 
 const Content = styled.article`
   grid-column: 2;
