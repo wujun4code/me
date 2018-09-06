@@ -3,7 +3,15 @@ date: "2018-02-20"
 title: "SDK 开发的经验分享 - 面向接口/协议编程"
 category: "Coding"
 ---
+<!-- TOC -->
 
+- [面向接口/协议编程](#面向接口协议编程)
+    - [我需要一个 Http Client 来帮助我收发 Http 请求](#我需要一个-http-client-来帮助我收发-http-请求)
+    - [抽象出有用的相同的，封装掉用不到和不同的](#抽象出有用的相同的封装掉用不到和不同的)
+    - [封装一个 IHttpClient，它只需要做好一件事情](#封装一个-ihttpclient它只需要做好一件事情)
+    - [<a name="begin-to-use-httpclient"></a>开始消费 Http Client](#a-namebegin-to-use-httpclienta开始消费-http-client)
+
+<!-- /TOC -->
 # 面向接口/协议编程
 
 这个话题真的是老生常谈，烂大街的面试口号了，但是时至今日，依然可以看见众多开源的项目里面，分层逻辑根本没有遵照面向接口/协议编程。
