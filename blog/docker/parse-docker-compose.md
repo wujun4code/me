@@ -1,6 +1,6 @@
 ---
 date: "2018-09-15"
-title: "Docker Compose 搭建单机的 Parse 服务"
+title: "Docker Compose 搭建单机的 Parse Server"
 category: "Docker"
 ---
 <!-- TOC -->
@@ -129,7 +129,7 @@ services:
       - '4040:4040'
     environment:
       - PARSE_DASHBOARD_ALLOW_INSECURE_HTTP=true
-      - PARSE_DASHBOARD_SERVER_URL=http://localhost:1337/bas
+      - PARSE_DASHBOARD_SERVER_URL=/api/bas
       - PARSE_DASHBOARD_MASTER_KEY=bas@master123!
       - PARSE_DASHBOARD_APP_ID=bas
       - PARSE_DASHBOARD_APP_NAME=BAS
