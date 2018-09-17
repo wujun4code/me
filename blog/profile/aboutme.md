@@ -96,7 +96,7 @@ category: "Profile"
 
 以下均为我熟练使用的技能
 
-- Web 开发：ASP.NET/Node/jQuery
+- Web 开发：ASP.NET/Node
 - Web 框架：ASP.NET MVC
 - 前端框架：Bootstrap/Angular/ionic
 - 前端工具：Grunt/Gulp/SaSS/
@@ -113,6 +113,7 @@ category: "Profile"
 - WPF/Silverlight
 - .NET Core
 - ASP.NET MVC
+- jQuery
 - ionic
 - Xamarin
 - Azure
