@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import { Layout, Article, Wrapper, Button, SectionTitle } from 'components';
 import { media } from '../utils/media';
+import config from '../../config/SiteConfig';
 
 const Content = styled.div`
   grid-column: 2;
@@ -45,10 +46,10 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>您好，感谢您来到我的博客</h1>
-        <p>
-          I&apos;m Wu Jun
-        </p>
+        <h1>不想做厨子的程序员不是个好孩子</h1>
+          <p>
+            `${config.author} 的博客`
+          </p>
         <Link to="/关于我">
           <Button big>
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
