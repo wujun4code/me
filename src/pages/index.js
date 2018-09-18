@@ -48,7 +48,7 @@ const IndexPage = ({
       <Hero>
         <h1>不想做厨子的程序员不是个好孩子</h1>
           <p>
-            `${config.author} 的博客`
+            {config.author} 的博客
           </p>
         <Link to="/关于我">
           <Button big>
