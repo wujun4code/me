@@ -153,6 +153,8 @@ MessageBase : IDictionary customAttributes
 MessageBase : string text
 MessageBase : int type
 BinaryCompositeMessage: byte[] encipheredData : 加密二进制数据
+BinaryCompositeMessage: ImageMessage image : 图片
+BinaryCompositeMessage: LocationMessage location 地理位置
 ```
 
 但是实际上在编码的过程中，我自己都觉得恶心，因为本来序列化的时候会出现你需要将包含了的两个属性分别序列化，而他们又分别拥有一份如下属性：
