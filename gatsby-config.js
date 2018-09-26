@@ -21,20 +21,30 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [{
-            resolve: `gatsby-remark-sequence`,
+            resolve: `gatsby-remark-draw`,
             options: {
-              // see more details on https://github.com/bramp/js-sequence-diagrams
-              'theme': 'simple',
+              strategy: 'img',
+              dot: {
+                edgeAttributes: {
+                    'arrowtail': 'empty',
+                    'arrowhead': 'empty'
+                }
+              },
+              bob: {
+                fontFamily: 'verdana'
+              },
+              mermaid: {
+                theme: 'default',
+                backgroundColor: 'transparent'
+              }
             }
-          },
-          {
+          },{
             resolve: 'gatsby-remark-external-links',
             options: {
               target: '_blank',
               rel: 'nofollow noopener noreferrer',
             },
-          },
-          {
+          }, {
             resolve: "gatsby-remark-embed-video",
             options: {
               width: 800,
