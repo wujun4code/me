@@ -21,6 +21,7 @@ category: "Profile"
  - 微博：[@神笔胖码农](http://weibo.com/416318965) 
  - 技术博客：http://wujun.blog
  - Github：http://github.com/wujun4code
+ - npm: https://www.npmjs.com/~wujun4code
 
  - 期望职位：软件结构设计师，客户端软件架构
  - 期望薪资：税前 28k * 13，特别喜欢的公司可例外
