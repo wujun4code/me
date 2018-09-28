@@ -9,7 +9,7 @@ category: "Tools"
 - [VSCode NodeJS 的 Debug 支持](#vscode-nodejs-%E7%9A%84-debug-%E6%94%AF%E6%8C%81)
 - [基础运行逻辑要清楚](#%E5%9F%BA%E7%A1%80%E8%BF%90%E8%A1%8C%E9%80%BB%E8%BE%91%E8%A6%81%E6%B8%85%E6%A5%9A)
 - [开始动手](#%E5%BC%80%E5%A7%8B%E5%8A%A8%E6%89%8B)
-    - [1. 确定使用的框架](#1-%E7%A1%AE%E5%AE%9A%E4%BD%BF%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6)
+    - [1.确定使用的框架](#1%E7%A1%AE%E5%AE%9A%E4%BD%BF%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6)
     - [2.划分 Bash/Shell/Task 分别负责的区域](#2%E5%88%92%E5%88%86-bashshelltask-%E5%88%86%E5%88%AB%E8%B4%9F%E8%B4%A3%E7%9A%84%E5%8C%BA%E5%9F%9F)
     - [3.理清需求](#3%E7%90%86%E6%B8%85%E9%9C%80%E6%B1%82)
     - [4.额外的配置项](#4%E9%A2%9D%E5%A4%96%E7%9A%84%E9%85%8D%E7%BD%AE%E9%A1%B9)
@@ -35,7 +35,7 @@ VSCode 有自带的 NodeJS 的 Debug 支持，并且可以很好的支持断点�
 
 `video: https://www.youtube.com/embed/AucP_TOoFyA`
 
-### 1. 确定使用的框架
+### 1.确定使用的框架
 
 首先分析了一下各种能在 Node 环境下运行的 JS 单元测试的框架：
 
@@ -168,10 +168,9 @@ VSCode 有自带的 NodeJS 的 Debug 支持，并且可以很好的支持断点�
 第一个叫做 `Mocha Tests`，它会跑遍所有的编译编译目录下的所有 `*.js` 的单元测试文件，而第二个 `Debug Mocha Test Current File`，则只会 Debug 你当前打开的那个 TypeScript 文件，强大吧？
 
 
-
 ### 4.额外的配置项
 
-需要使用 Gulp/Grunt 搭配 tsc 预编译，另外 `tsconfig.json` 也需要特殊配置一下，详细请参考[实例代码](#示例代码)
+需要使用 Gulp/Grunt 搭配 tsc 预编译，另外 `tsconfig.json` 也需要特殊配置一下，详细请参考[示例代码](#示例代码)
 
 ## 示例代码
 
@@ -179,7 +178,7 @@ VSCode 有自带的 NodeJS 的 Debug 支持，并且可以很好的支持断点�
 
 ## 总结
 
-VSCode 因为彻底的开源和开放，它迭代的功能比 VS 要快，并且因为大部分都针对时下流行语言/流行框架的功能，搭配一些配置的知识可以快速的提高变成效率。
+VSCode 因为彻底的开源和开放，它迭代的功能比 VS 要快，并且因为大部分都针对时下流行语言/流行框架的功能，搭配一些配置的知识可以快速的提高编程效率。
 
 
 
