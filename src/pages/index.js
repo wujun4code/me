@@ -57,7 +57,12 @@ const IndexPage = ({
             </svg>
             简历
           </Button>
-        </Link>
+          </Link>
+          <a href="https://goo.gl/forms/8PpRX9mYfBYMfX6E2">
+          <Button big>
+            技术选型讨论
+          </Button>
+        </a>
       </Hero>
       <Content>
         <SectionTitle>文章列表</SectionTitle>
