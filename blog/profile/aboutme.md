@@ -1,5 +1,5 @@
 ---
-date: "2018-09-26"
+date: "2018-10-16"
 title: "关于我"
 category: "Profile"
 ---
@@ -166,6 +166,12 @@ category: "Profile"
 - Visual Studio/Visual Studio Code
 - RocketChat
 
+## 外语
+
+- 听：有点吃力
+- 说：正常表达，应该能听懂，没有中式口音
+- 读：可以通顺地阅读阅读科技文章和英文文档
+- 写：邮件/文档/注释/commit log 无压力
 
 ## 个人观点
 
