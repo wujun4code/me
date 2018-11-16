@@ -46,7 +46,7 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>不想做厨子的程序员不是个好孩子</h1>
+        <h1>不想做厨子的程序员不是个好司机</h1>
           <p>
             {config.author} 的博客
           </p>
